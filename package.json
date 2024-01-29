@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@notion-render/client": "^0.0.2",
+    "@notionhq/client": "^2.2.14",
     "@types/node": "20.11.10",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
@@ -21,5 +23,8 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10"
   }
 }
